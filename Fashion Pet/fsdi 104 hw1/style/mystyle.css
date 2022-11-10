@@ -1,0 +1,51 @@
+*  {
+    margin: 0;
+    padding: 0;
+}
+.bg{
+    background-color:  rgba(109,72,115,255);
+    border:2px solid rgba(33, 2, 49, 0.678);
+    
+}
+.highlight {
+    border: 3px solid rgb(243, 211, 56);
+}
+#pets{
+    display:grid;
+    grid-template-columns: repeat(3,1fr); 
+}
+body{
+    color: rgba(253,215,54,255);
+}
+main{
+    background-color:  rgba(109,72,115,255);
+}
+#Nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: large;
+}
+#Nav a:hover {
+    color: rgb(226, 201, 98);
+    text-decoration: underline;
+}
+input{
+    width: fit-content;
+    background-color:rgba(255, 255, 255, 0.929)!important;
+    margin-top: 1rem;
+    
+}
+input[type=text], [type=number] {
+    width: 40%;
+    
+    
+    
+}
+header{
+    background-color:  rgba(109,72,115,255);
+}
+footer{
+    color: rgba(109,72,115,255);
+    background-color:  rgb(255, 255, 255);
+    
+}
